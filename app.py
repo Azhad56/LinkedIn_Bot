@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
 	return render_template('index.html')
 
-@app.route('/follow_explore',methods=['GET','POST'])
+@app.route('/follow_explore',methods=['POST'])
 def follow_explore():
     uname = request.form['name']
     psw = request.form['pass']
