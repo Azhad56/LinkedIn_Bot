@@ -1,22 +1,19 @@
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver import ActionChains
 import time
 import random
-import sys
+import os
 
 class LinkedInBot:
 
     def __init__(self, username, password):
-        opts = Options()
-        opts.set_headless()
-        assert opts.headless
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+        chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.add_argument("--no-sandbox")
+        self.driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
         self.username = username
         self.password = password
-        self.driver = webdriver.Firefox(options=opts)
 
     def closeBrowser(self):
         self.driver.close()
