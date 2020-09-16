@@ -16,12 +16,13 @@ class LinkedInBot:
         assert opts.headless
         self.username = username
         self.password = password
-        self.driver = webdriver.Chrome(Options=opts)
+        self.driver = webdriver.Firefox(options=opts)
 
     def closeBrowser(self):
         self.driver.close()
 
     def login(self):
+        print("Hey")
         driver = self.driver
         driver.get("https://www.linkedin.com/")
         time.sleep(4)
@@ -40,10 +41,9 @@ class LinkedInBot:
     def connect_people(self):
         driver = self.driver
         while True:
-            print(count)
             driver.get("https://www.linkedin.com/mynetwork/")
             time.sleep(4)
-            driver.find_element_by_xpath("//*[@id='ember113']").click()
+            driver.find_element_by_xpath("//*[@id='msg-overlay']/div[1]/header/section[1]").click()
             time.sleep(4)
             for i in range(2):
                 driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
@@ -54,6 +54,7 @@ class LinkedInBot:
             for people in all:
                 try:
                     people.click()
+                    print("clicked")
                 except Exception:
                     continue
                 time.sleep(30)
