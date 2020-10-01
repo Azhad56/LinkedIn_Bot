@@ -3472,3 +3472,155 @@ JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1600241418379	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileY10cGj"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600241440901	Marionette	INFO	Listening on port 34851
+1600241440963	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+1600242530786	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7j5ke9"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600242556788	Marionette	INFO	Listening on port 36125
+1600242556952	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+1600242563819	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFyN048"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600242582485	Marionette	INFO	Listening on port 41837
+1600242582560	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://accounts.google.com/o/oauth2/iframe#origin=https%3A%2F%2Fwww.linkedin.com&rpcToken=561040175.7655447&clearCache=1, line 1: ReferenceError: lso is not defined
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/br/6rc14j9pad0wcxwn9rufbf6bv, line 2768: Error: Failed to preload bundles: msg-overlay
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+1600242865877	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1jLu6r"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600242888453	Marionette	INFO	Listening on port 44045
+1600242888528	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+1600249266200	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0LQxyr"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600249272344	Marionette	INFO	Listening on port 41779
+1600249272432	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+JavaScript error: https://static-exp1.licdn.com/sc/h/2oj57nag4nvpiki6u3z18w9f9, line 1: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+1600259032651	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeFpnIE"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600259078657	Marionette	INFO	Listening on port 45935
+1600259078781	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1600262600889	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVFM7WT"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600262624565	Marionette	INFO	Listening on port 33185
+1600262624591	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 22371: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/br/e8epvztnrc9y5aqt9cuaft6g, line 17978: unreachable code after return statement
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 582: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390026,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+

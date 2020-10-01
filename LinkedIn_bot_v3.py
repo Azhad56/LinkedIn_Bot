@@ -1,4 +1,5 @@
 from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
 import time
 import os
@@ -6,12 +7,17 @@ import os
 class LinkedInBot:
 
     def __init__(self, username, password):
-        chrome_options = webdriver.ChromeOptions()
-        chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-        chrome_options.add_argument("--headless")
-        chrome_options.add_argument("--disable-dev-shm-usage")
-        chrome_options.add_argument("--no-sandbox")
-        self.driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
+        #For heroku
+        # chrome_options = webdriver.ChromeOptions()
+        # chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+        # chrome_options.add_argument("--headless")
+        # chrome_options.add_argument("--disable-dev-shm-usage")
+        # chrome_options.add_argument("--no-sandbox")
+        # self.driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
+        opts = Options()
+        opts.set_headless()
+        assert opts.headless
+        self.driver = webdriver.Chrome()
         self.username = username
         self.password = password
 
@@ -19,7 +25,6 @@ class LinkedInBot:
         self.driver.close()
 
     def login(self):
-        print("Hey")
         driver = self.driver
         driver.get("https://www.linkedin.com/")
         time.sleep(4)
@@ -34,9 +39,10 @@ class LinkedInBot:
         passworword_elem.send_keys(self.password)
         time.sleep(2)
         passworword_elem.send_keys(Keys.RETURN)
-        time.sleep(15)
+        time.sleep(10)
     def connect_people(self):
         driver = self.driver
+        count=0
         while True:
             driver.get("https://www.linkedin.com/mynetwork/")
             time.sleep(4)
@@ -51,8 +57,9 @@ class LinkedInBot:
             for people in all:
                 try:
                     people.click()
-                    print("clicked")
+                    count += 1
+                    print("clicked:",count)
                 except Exception:
                     continue
-                time.sleep(30)
-            time.sleep(60)
+                time.sleep(10)
+            time.sleep(5)
